@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+.htpasswd_admin
+
+# Local data
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+/logs/
+*.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
